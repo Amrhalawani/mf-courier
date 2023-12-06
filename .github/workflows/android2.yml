@@ -1,0 +1,51 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew build
+    - name: Firebase App Distribution
+  # You may pin to the exact commit or the version.
+  # uses: wzieba/Firebase-Distribution-Github-Action@0d0bad2ef0f6c55afb1fbf95260538844cd33c77
+      uses: wzieba/Firebase-Distribution-Github-Action@v1.5.0
+        with:
+    # App id can be found on the General Settings page
+        appId: 
+    # Upload token - see Firebase CLI Reference
+        token: # optional
+    # Service credentials file
+        serviceCredentialsFile: # optional
+    # Content of service credentials file
+    s   erviceCredentialsFileContent: # optional
+    # Artifact to upload (.apk or .ipa)
+        file: 
+    # Distribution groups
+        groups: # optional
+    # Distribution testers
+        testers: # optional
+    # Release notes visible on release page
+        releaseNotes: # optional
+    # Release notes visible on release page
+        releaseNotesFile: # optional
+    # Flag that can included to print verbose log output.
+        debug: # optional
