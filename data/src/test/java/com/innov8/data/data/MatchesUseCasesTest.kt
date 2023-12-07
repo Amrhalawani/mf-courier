@@ -4,7 +4,7 @@ import com.innov8.moneyfellowscourier.utils.formatDate
 import com.innov8.data.data.pojo.FakeMatchResource
 import com.innov8.data.data.pojo.Match
 import com.innov8.data.data.repo.FakeMatchesRepository
-import com.innov8.data.data.repo.MatchesUseCases
+import com.innov8.data.data.repo.AppUseCases
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
@@ -15,7 +15,7 @@ class MatchesUseCasesTest {
 
     val matches: ArrayList<Match> = arrayListOf()
 
-    lateinit var matchesUseCases: MatchesUseCases
+    lateinit var matchesUseCases: AppUseCases
 
     val firstJuly = "2022-07-01T00:00:00Z"
     val secondJuly = "2022-07-02T00:00:00Z"
@@ -24,7 +24,7 @@ class MatchesUseCasesTest {
 
     @Before
     fun createMatchesUseCases() {
-        matchesUseCases = MatchesUseCases(FakeMatchesRepository())
+        matchesUseCases = AppUseCases(FakeMatchesRepository())
     }
 
     @Before

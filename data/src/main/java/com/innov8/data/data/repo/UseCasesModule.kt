@@ -15,7 +15,7 @@ object UseCasesModule {
     @Singleton
     @Provides
     fun provideUseCase(
-        repository: MatchesRepository
-    ) = MatchesUseCases(repository)
+        repository: AppRepository
+    ) = AppUseCases(repository)
 
 }

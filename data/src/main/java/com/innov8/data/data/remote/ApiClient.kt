@@ -2,6 +2,7 @@ package com.innov8.data.data.remote
 
 import com.innov8.data.data.pojo.CheckOtpRes
 import com.innov8.data.data.pojo.DefaultRes
+import com.innov8.data.data.pojo.HomeRes
 import com.innov8.data.data.pojo.ReportsRes
 import retrofit2.http.*
 
@@ -48,7 +49,7 @@ interface ApiClient {
     @FormUrlEncoded
     @GET("/home")
     suspend fun home(
-    ): ReportsRes
+    ): HomeRes
 
 
 }

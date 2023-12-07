@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
-class MatchesUseCases @Inject constructor(
+class AppUseCases @Inject constructor(
     val repository: MatchesRepositoryInterface
 ) {
     suspend fun getMatchesGroupedByDate() =
