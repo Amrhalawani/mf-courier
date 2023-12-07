@@ -6,9 +6,9 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import app.cash.turbine.test
-import com.innov8.data.matches.local.db.FavoriteMatchesDao
-import com.innov8.data.matches.local.db.MatchesDatabase
-import com.innov8.data.matches.pojo.FakeMatchResource
+import com.innov8.data.data.local.db.FavoriteMatchesDao
+import com.innov8.data.data.local.db.MatchesDatabase
+import com.innov8.data.data.pojo.FakeMatchResource
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.After
