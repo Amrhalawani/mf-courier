@@ -7,7 +7,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class LocalMatchesDataSource @Inject constructor(private val favoriteMatchesDao: FavoriteMatchesDao) {
+class LocalDataSource @Inject constructor(private val favoriteMatchesDao: FavoriteMatchesDao) {
 
      fun fetchFavoritesMatches(): Flow<List<Match>> {
         return favoriteMatchesDao.selectAllFavoriteMatchesList()

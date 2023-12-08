@@ -10,7 +10,7 @@ interface ApiClient {
     @FormUrlEncoded
     @POST("/login")
     suspend fun login(
-        @Field("country_code") name: String,
+        @Field("country_code") country_code: String,
         @Field("phone_number") phone: String
     ): DefaultRes
 

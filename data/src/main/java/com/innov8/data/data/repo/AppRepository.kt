@@ -1,19 +1,19 @@
 package com.innov8.data.data.repo
 
-import com.innov8.data.data.local.LocalMatchesDataSource
+import com.innov8.data.data.local.LocalDataSource
 import com.innov8.data.data.pojo.DefaultRes
-import com.innov8.data.data.remote.RemoteMatchesDataSource
+import com.innov8.data.data.remote.RemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 class AppRepository @Inject constructor(
-    private val localMatchesDS: LocalMatchesDataSource,
-    private val remoteMatchesDS: RemoteMatchesDataSource
+    private val localDS: LocalDataSource,
+    private val remoteDS: RemoteDataSource
 ) {
 
 
-     fun login(name:String, phone:String): Flow<DefaultRes> {
-        return remoteMatchesDS.login(name,phone)
+     suspend fun login(country_code:String, phone:String): DefaultRes {
+        return remoteDS.login(country_code,phone)
     }
 
 }
