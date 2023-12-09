@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/fragment_splash.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/fragment_favorites_matches.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/fragment_favorites_matches.xml"
+    },
+    {
+        "merged": "com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/fragment_login.xml",
+        "source": "com.innov8.moneyfellowscourier.app-main-52:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/item_match.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/item_match.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/item_match_favorite.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/item_match_favorite.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/item_matches_sectioned_by_day.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/item_matches_sectioned_by_day.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/view_action_bar.xml",
+        "source": "/Users/amrhal/.gradle/daemon/7.4/com.innov8.moneyfellowscourier.app-main-52:/layout/view_action_bar.xml"
+    },
+    {
+        "merged": "com.innov8.moneyfellowscourier.app-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "com.innov8.moneyfellowscourier.app-main-52:/layout/fragment_home.xml"
+    }
+]

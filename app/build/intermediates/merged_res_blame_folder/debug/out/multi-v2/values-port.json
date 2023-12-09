@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.innov8.moneyfellowscourier.app-mergeDebugResources-48:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/amrhal/.gradle/caches/transforms-3/3fdbf8f37f73f3349849a17d97cc6303/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

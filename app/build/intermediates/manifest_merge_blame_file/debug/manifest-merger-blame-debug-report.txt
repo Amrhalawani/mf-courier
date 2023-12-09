@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.innov8.moneyfellowscourier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:6:5-33:19
+15        android:name="com.innov8.moneyfellowscourier.app.App"
+15-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:7:9-32
+16        android:allowBackup="true"
+16-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:8:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] /Users/amrhal/.gradle/caches/transforms-3/68de57bf4df94ff530435a545de34768/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+18        android:dataExtractionRules="@xml/data_extraction_rules"
+18-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:9:9-65
+19        android:debuggable="true"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:10:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.Challenge" >
+25-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:16:9-47
+26        <activity
+26-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:18:9-32:20
+27            android:name="com.innov8.moneyfellowscourier.MainActivity"
+27-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:19:13-41
+28            android:exported="true"
+28-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:20:13-36
+29            android:label="@string/app_name"
+29-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:21:13-45
+30            android:theme="@style/Theme.Challenge" >
+30-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:22:13-51
+31            <intent-filter>
+31-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:24:17-69
+32-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:26:17-77
+34-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36
+37            <meta-data
+37-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:29:13-31:36
+38                android:name="android.app.lib_name"
+38-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:30:17-52
+39                android:value="" />
+39-->/Users/amrhal/Desktop/android/MFC/app/src/main/AndroidManifest.xml:31:17-33
+40        </activity>
+41
+42        <uses-library
+42-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+43            android:name="androidx.window.extensions"
+43-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+45        <uses-library
+45-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+46            android:name="androidx.window.sidecar"
+46-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] /Users/amrhal/.gradle/caches/transforms-3/14ab502d1485e70cb4b8bc2f282e2fbf/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+51            android:authorities="com.innov8.moneyfellowscourier.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/amrhal/.gradle/caches/transforms-3/37333b1cb0e92d7d6e3598d158672240/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/amrhal/.gradle/caches/transforms-3/f5ca37c89379ac3722ca40080afaa8fc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/amrhal/.gradle/caches/transforms-3/f5ca37c89379ac3722ca40080afaa8fc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/amrhal/.gradle/caches/transforms-3/f5ca37c89379ac3722ca40080afaa8fc/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+59        </provider>
+60
+61        <service
+61-->[androidx.room:room-runtime:2.4.3] /Users/amrhal/.gradle/caches/transforms-3/ad427a14e368f5200c24b197b6a4f284/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+62            android:name="androidx.room.MultiInstanceInvalidationService"
+62-->[androidx.room:room-runtime:2.4.3] /Users/amrhal/.gradle/caches/transforms-3/ad427a14e368f5200c24b197b6a4f284/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+63            android:directBootAware="true"
+63-->[androidx.room:room-runtime:2.4.3] /Users/amrhal/.gradle/caches/transforms-3/ad427a14e368f5200c24b197b6a4f284/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+64            android:exported="false" />
+64-->[androidx.room:room-runtime:2.4.3] /Users/amrhal/.gradle/caches/transforms-3/ad427a14e368f5200c24b197b6a4f284/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+65    </application>
+66
+67</manifest>

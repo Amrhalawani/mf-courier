@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66741731229",
+    "project_id": "testappdist-github-actions",
+    "storage_bucket": "testappdist-github-actions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66741731229:android:0e0c2d0a1b2c1e41f8b974",
+        "android_client_info": {
+          "package_name": "com.amrh.challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66741731229-6mf5edvaje4v0m54jris2ufrjumfs3jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFz3V5eVnIhop5t5no976WWlxRuB3Z8JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66741731229-6mf5edvaje4v0m54jris2ufrjumfs3jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

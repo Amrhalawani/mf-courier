@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.innov8.moneyfellowscourier.test.app-mergeDebugAndroidTestResources-13:/values-az/values-az.xml",
+            "map": [
+                {
+                    "source": "/Users/amrhal/.gradle/caches/transforms-3/68de57bf4df94ff530435a545de34768/transformed/core-1.8.0/res/values-az/values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
